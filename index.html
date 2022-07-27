@@ -9,200 +9,215 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_preproc.css">
+
 </head>
-<body>
 <header>
-    <div class="container d-flex">
-    <a href="#" class="logo">
-        <img src="images/borz_logo.svg" alt="logo">
-    </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Про курс</a>
-                </li>
-                <li>
-                    <a href="#">Особливості</a>
-                </li>
-                <li>
-                    <a href="#">Програма</a>
-                </li>
-                <li>
-                    <a href="#">Викладачі</a>
-                </li>
-            </ul>
-        </nav>
-            <button class="get">
-                <a href="#">
-                    Отримати консультацію
-                </a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/borz_logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-        <ul class="second_ul">
-            <li>
-                <a href="#">UA</a>
-            </li>
-            <li>
-                <a href="#">RU</a>
-            </li>
-            <li>
-                <a href="#">EN</a>
-            </li>
-        </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Про курс</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Особливості</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            Програма
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Викладачі</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><button class="header_button">Отримати консультацію</button></a>
+                    </li>
+                </ul>
+                <ul class="second_ul navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#">EN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">UA</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 </header>
 <section class="main_banner">
-    <div class="container d-flex">
-        <div>
-            <h1>Навчіться статистичному програмуванню мовою SAS</h1>
-            <button class="get">
-                    Записатися на курс
-            </button>
-        </div>
-        <a href="#">
-            <img src="images/main_banner_3.jpg">
-        </a>
-    </div>
-
-</section>
-<section class="about_us">
     <div class="container">
-        <h1>Про курс</h1>
-        <p>Даний курс проведе Вас шляхом від новачка в сфері інформаційних технологій до претендента<br>на позицію Junior Statistical Programmer. В ході навчання Ви познайомитесь не тільки із мовою<br>програмування SAS, а й з теоретичним обгрунтуванням, що стоїть за розглянутими процедурами. </p>
-        <div class="about_info">
-            <div class="item">
+        <div class="row">
+            <div class="col-xl-6 col-12">
+                <h1>Навчіться статистичному програмуванню мовою SAS</h1>
+                <a href="#" class="mainbanner_a">
+                    ЗАПИСАТИСЯ НА КУРС
+                </a>
+                </div>
+                <div class="col-xl-6 col-12">
+                    <a href="#">
+                        <img src="images/borz_main.png" class="d-block w-100">
+                    </a>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="about_course text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-12">
+                <h2>Про курс</h2>
+            </div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-6">
+                <p>Даний курс проведе Вас шляхом від новачка в сфері інформаційних технологій до претендента
+                    на позицію Junior Statistical Programmer. В ході навчання Ви познайомитесь не тільки із мовою програмування SAS, а й з теоретичним обгрунтуванням, що стоїть за розглянутими процедурами. </p>
+            </div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-2"></div>
+            <div class="col-xl-2 about_course_item">
                 <h4>Формат</h4>
                 <h3>Онлайн</h3>
             </div>
-            <div class="item">
+            <div class="col-xl-2 about_course_item">
                 <h4>Тривалість</h4>
                 <h3>3 місяці</h3>
             </div>
-            <div class="item">
+            <div class="col-xl-2 about_course_item">
                 <h4>Кількість занять</h4>
                 <h3>20</h3>
             </div>
-            <div class="item_2">
+            <div class="col-xl-2 about_course_item border-0">
                 <h4>Вартість</h4>
                 <h3>0000</h3>
             </div>
         </div>
     </div>
 </section>
-<section class="for_what">
+<section class="who_can text-center">
     <div class="container">
-        <div class="elements">
-            <h1>Для кого цей курс
-            </h1>
-            <div class="elements_flex">
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
+        <div class="row">
+            <div class="col-xl-12">
+                <h3>Для кого цей курс</h3>
             </div>
-            <hr>
-            <div class="elements_info">
-            <h3>Новачки в IT</h3>
-                <h3>Студенти
-                    університетів</h3>
-                <h3>Науковці/
-                    викладачі</h3>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-6">
+                <hr>
             </div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-6 d-flex justify-content-between for_item">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-6 col- 12 for_item_2 d-flex justify-content-center text-center">
+                <p>Новачки в IT</p>
+                <p>Студенти<br>університетів</p>
+                <p>Науковці/<br>викладачі</p>
+            </div>
+            <div class="col-xl-3"></div>
         </div>
     </div>
 </section>
-<section class="more">
+<section class="specifics">
     <div class="container">
-        <div class="more_flex">
-            <a href="#">
-            <img src="images/borz.png">
-            </a>
-            <div class="more_1">
-                <h1>Особливості курсу</h1>
-                <p>Курс проходитиме в форматі онлайн-конференцій, невеликими<br>групами до 6 чоловік. Також для студентів передбачено доступ<br>
-                    до LMS, де можна буде знайти навчальні матеріали, отримати<br>
+        <div class="specific_items">
+        <div class="row">
+            <div class="col-xl-6">
+                <a href="#">
+                    <img src="images/borz.png" class="d-block w-75">
+                </a>
+            </div>
+            <div class="col-xl-6">
+                <h4>Особливості курсу</h4>
+                <p>Курс проходитиме в форматі онлайн-конференцій, невеликими групами до 6 чоловік. Також для студентів передбачено доступ
+                    до LMS, де можна буде знайти навчальні матеріали, отримати
                     та відправити домашні завдання.
                 </p>
             </div>
         </div>
     </div>
-</section>
-<section class="schedule">
-    <div class="container">
-        <h1>Програма</h1>
-        <a href="#">
-        <img src="images/Program.jpg">
-        </a>
     </div>
 </section>
-<section class="lecturers">
+<section class="materials text-center">
     <div class="container">
-        <h1>Викладачі</h1>
-        <div class="lecturers_flex">
-            <a href="#">
-                <img src="images/Andrew.jpg">
-            </a>
-            <div class="lecturers_info">
-                <h2>Андрій Борзенков
-                </h2>
-                <p>
-                    Має 5+ років досвіду статистичного программування на SAS для клінічних випробувань. У 2016 році отримав сертифікат “SAS Certified Base Programmer for SAS 9” від SAS Institute. Проводив презентацію для міжнародної конференції “PHUSE US Connect 2021” за темою “SDTM, ADaM and Database Normal Forms Implementation”. Випускник факультету математики і інформатики Харківського національного університету імені В. Н. Каразіна.
-                </p>
+        <div class="col-xl-12">
+            <h4>Програма</h4>
+        </div>
+        <div class="col-xl-12">
+            <a href="#" class="d-inline-flex justify-content-center"><img src="images/Program.png" class="d-block w-75"></a>
+        </div>
+    </div>
+</section>
+<section class="lecturer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <h5>Викладачі</h5>
+            </div>
+            <div class="col-xl-6 d-inline-flex justify-content-center">
+                <a href="#"><img src="images/Andrew.jpg" class=" w-100"></a>
+            </div>
+            <div class="col-xl-6">
+                <h4>Андрій Борзенков</h4>
+                <p>Має 5+ років досвіду статистичного программування на SAS для клінічних випробувань. У 2016 році отримав сертифікат “SAS Certified Base Programmer for SAS 9” від SAS Institute. Проводив презентацію для міжнародної конференції “PHUSE US Connect 2021” за темою “SDTM, ADaM and Database Normal Forms Implementation”. Випускник факультету математики і інформатики Харківського національного університету імені В. Н. Каразіна.</p>
             </div>
         </div>
     </div>
 </section>
-<section class="borz_form">
+<section class="forms">
     <div class="container">
-        <h1>Записатися на курс або отримати безкоштовну консультацію</h1>
-        <div class="form">
-            <form name="info" action="#" method="post">
-                <div class="form_1">
-                <label for="name">
-                    <input id="name" type="text" placeholder="Имя">
-                </label>
+        <div class="row">
+            <div class="col-xl-4"></div>
+            <div class="col-xl-6"><h5>Записатися на курс або<br>отримати безкоштовну консультацію</h5></div>
+            <div class="col-xl-2"></div>
+            <div class="col-xl-4"></div>
+            <div class="col-xl-6"><form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ім’я">
                 </div>
-                <div class="form_1">
-                <label for="tel">
-                    <input id="tel" class="icon" placeholder="+380-111-22-33">
-                </label>
+                <div class="form-group mt-5">
+                    <label for="exampleInputPassword1"></label>
+                    <input type="password" class="form-control input_2" id="exampleInputPassword1" placeholder="+380-111-22-33">
                 </div>
-            </form>
-            <button type="button" class="get">
-                <a href="#">
-                    Записатися на курс
-                </a>
-            </button>
-            <a href="#" class="a">
-                Натискаючи на кнопку ви погоджуєтеся на обробку персональних даних
-            </a>
+                <button type="submit" class="btn btn-primary">Записатися на курс</button>
+            </form></div>
+            <div class="col-xl-2"></div>
+            <div class="col-xl-12 text-center">
+                <a href="#">Натискаючи на кнопку ви погоджуєтеся на обробку персональних даних</a>
+            </div>
         </div>
-
     </div>
 </section>
 <footer>
-<div class="container d-flex">
-    <div class="f_logo">
-        <a href="#">
-            <img src="images/borz_logo.svg">
-        </a>
-        <h4>
-            © Усі права захищені
-        </h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 item_1">
+                <a href="#"><img src="images/borz_logo.svg"></a>
+                <p>© Усі права захищені</p>
+            </div>
+            <div class="col-xl-4 d-flex justify-content-center item_2">
+                <h5>+38 (000) 000-00-00 </h5>
+                <h5>mail@borzenkoff.com</h5>
+            </div>
+            <div class="col-xl-4 d-flex justify-content-end item_3">
+                <a href="#"><img src="images/ic_instagram.svg"></a>
+                <a href="#"><img src="images/ic_facebook.svg"></a>
+            </div>
+        </div>
     </div>
-    <div class="f_center">
-        <h3>+38 (000) 000-00-00 </h3>
-        <h3>mail@borzenkoff.com</h3>
-    </div>
-    <div class="f_icons">
-        <a href="#">
-            <img src="images/ic_instagram.svg">
-        </a>
-        <a href="#">
-            <img src="images/ic_facebook.svg">
-        </a>
-    </div>
-</div>
 </footer>
+<script src="JS/bootstrap.js"></script>
+<body>
 </body>
 </html>
