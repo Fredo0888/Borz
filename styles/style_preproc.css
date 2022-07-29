@@ -53,7 +53,7 @@ header nav .second_ul {
   margin-top: 58px; }
 @media only screen and (max-width: 429px) {
   header nav .second_ul {
-    margin-left: 150px;
+    margin-left: 145px;
     margin-top: 5px; } }
   header nav .second_ul li {
     list-style: none;
@@ -81,7 +81,7 @@ header nav .second_ul {
 @media only screen and (max-width: 429px) {
   header nav .second_ul li:last-of-type a {
     position: absolute;
-    right: 155px;
+    right: 162px;
     bottom: 7px;
     font-size: 15px; } }
 
