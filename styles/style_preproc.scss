@@ -217,12 +217,12 @@ header {
 }
 .who_can{
   margin-top: 250px;
-  .row {
-    transition: 0.4s;
-    &:hover{
-      transform: scale(1.1);
-      background-color: #7abaff;
-    }
+  //.row {
+  //  transition: 0.4s;
+  //  &:hover{
+  //    transform: scale(1.1);
+  //    background-color: #7abaff;
+  //  }
     h3 {
       font-family: $main_font;
       font-style: normal;
@@ -258,9 +258,9 @@ header {
       }
     }
   }
-  .for_item_2{
-    a{
-      font-family:$main_font;
+  .for_item_2 {
+    a {
+      font-family: $main_font;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -269,12 +269,11 @@ header {
       color: #000000;
       margin: 0 105px;
       text-decoration: none;
-      @media only screen and (max-width: 429px){
+      @media only screen and (max-width: 429px) {
         margin: 0 10px;
       }
     }
   }
-}
 .specifics{
   margin-top: 128px;
   background-color: #EFEDED;
