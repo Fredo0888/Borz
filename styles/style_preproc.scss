@@ -403,11 +403,10 @@ header {
       border-bottom: 1px solid #A1A5A8;
     }
     .input_2{
-      padding-left: 60px;
+      padding: 5px 60px;
       &::placeholder{
         content: "";
         background-image: url("../images/ukraine.png");
-        background-size: contain;
         width: 36px;
         height: 36px;
         background-repeat: no-repeat;
