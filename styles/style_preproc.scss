@@ -411,6 +411,10 @@ header {
         width: 36px;
         height: 36px;
         background-repeat: no-repeat;
+        @media only screen and (max-width: 429px){
+          width: 23px;
+          height: 23px;
+        }
       }
     }
   }

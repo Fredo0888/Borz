@@ -330,6 +330,10 @@ header nav .second_ul {
         width: 36px;
         height: 36px;
         background-repeat: no-repeat; }
+  @media only screen and (max-width: 429px) {
+    .forms .form-group .input_2::placeholder {
+      width: 23px;
+      height: 23px; } }
   .forms button {
     padding: 10px 150px;
     border-radius: 56px;
